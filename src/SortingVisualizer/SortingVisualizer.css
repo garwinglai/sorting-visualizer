@@ -1,0 +1,44 @@
+.title {
+	text-align: center;
+	margin: 30px 0;
+}
+
+.buttons--container {
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+
+.sort--buttons {
+	margin: 0 15px;
+	background-color: paleturquoise;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.sort--buttons:hover {
+	background-color: palegoldenrod;
+}
+
+.newArray-btn:hover {
+	background-color: palevioletred;
+}
+
+.bars--container {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	/* background-color: blue; */
+	height: 80vh;
+	padding-left: 10px;
+	width: 100%;
+}
+
+.bar {
+	background-color: palevioletred;
+	margin: 0 2px;
+	width: 2px;
+}
